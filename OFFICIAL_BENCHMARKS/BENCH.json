@@ -1,0 +1,448 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "ELECTRICITYMAPS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CARBON_CAPTURE\\ELECTRICITYMAPS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "",
+      "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+      "branch": "master",
+      "committed_at": "2026-09-29T11:06:59+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 27,
+    "source_files_scanned": 14,
+    "lines_of_code": 607,
+    "languages": {
+      ".ts": 11,
+      ".json": 7,
+      "(none)": 5,
+      ".js": 3,
+      ".md": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 19,
+    "unique": 19,
+    "by_ecosystem": {
+      "npm": 19
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@grnsft/if-core",
+        "version": "^0.0.25",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "axios",
+        "version": "^1.7.9",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dayjs",
+        "version": "^1.11.13",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dotenv",
+        "version": "^16.4.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.7.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zod",
+        "version": "^3.24.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/core",
+        "version": "7.22.10",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-typescript",
+        "version": "^7.22.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@jest/globals",
+        "version": "^29.6.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "^29.5.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^20.4.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fixpack",
+        "version": "^4.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gts",
+        "version": "^5.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "^8.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "^29.7.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "^15.2.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rimraf",
+        "version": "^5.0.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ts-jest",
+        "version": "^29.1.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ts-node",
+        "version": "^10.9.2",
+        "source_file": "package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:71c1a9f4-01de-5bac-bb67-db6841f92543",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:05:40Z",
+      "component": {
+        "type": "application",
+        "name": "ELECTRICITYMAPS",
+        "version": "83b357604d34",
+        "bom-ref": "pkg:generic/anticloud/ELECTRICITYMAPS@83b357604d34",
+        "purl": "pkg:generic/anticloud/ELECTRICITYMAPS@83b357604d34",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": ""
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@grnsft/if-core",
+        "version": "^0.0.25",
+        "purl": "pkg:npm/@grnsft/if-core@^0.0.25",
+        "bom-ref": "npm/@grnsft/if-core@^0.0.25"
+      },
+      {
+        "type": "library",
+        "name": "axios",
+        "version": "^1.7.9",
+        "purl": "pkg:npm/axios@^1.7.9",
+        "bom-ref": "npm/axios@^1.7.9"
+      },
+      {
+        "type": "library",
+        "name": "dayjs",
+        "version": "^1.11.13",
+        "purl": "pkg:npm/dayjs@^1.11.13",
+        "bom-ref": "npm/dayjs@^1.11.13"
+      },
+      {
+        "type": "library",
+        "name": "dotenv",
+        "version": "^16.4.7",
+        "purl": "pkg:npm/dotenv@^16.4.7",
+        "bom-ref": "npm/dotenv@^16.4.7"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^5.7.3",
+        "purl": "pkg:npm/typescript@^5.7.3",
+        "bom-ref": "npm/typescript@^5.7.3"
+      },
+      {
+        "type": "library",
+        "name": "zod",
+        "version": "^3.24.2",
+        "purl": "pkg:npm/zod@^3.24.2",
+        "bom-ref": "npm/zod@^3.24.2"
+      },
+      {
+        "type": "library",
+        "name": "@babel/core",
+        "version": "7.22.10",
+        "purl": "pkg:npm/@babel/core@7.22.10",
+        "bom-ref": "npm/@babel/core@7.22.10"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-typescript",
+        "version": "^7.22.5",
+        "purl": "pkg:npm/@babel/preset-typescript@^7.22.5",
+        "bom-ref": "npm/@babel/preset-typescript@^7.22.5"
+      },
+      {
+        "type": "library",
+        "name": "@jest/globals",
+        "version": "^29.6.1",
+        "purl": "pkg:npm/@jest/globals@^29.6.1",
+        "bom-ref": "npm/@jest/globals@^29.6.1"
+      },
+      {
+        "type": "library",
+        "name": "@types/jest",
+        "version": "^29.5.7",
+        "purl": "pkg:npm/@types/jest@^29.5.7",
+        "bom-ref": "npm/@types/jest@^29.5.7"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^20.4.5",
+        "purl": "pkg:npm/@types/node@^20.4.5",
+        "bom-ref": "npm/@types/node@^20.4.5"
+      },
+      {
+        "type": "library",
+        "name": "fixpack",
+        "version": "^4.0.0",
+        "purl": "pkg:npm/fixpack@^4.0.0",
+        "bom-ref": "npm/fixpack@^4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "gts",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/gts@^5.0.0",
+        "bom-ref": "npm/gts@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "husky",
+        "version": "^8.0.0",
+        "purl": "pkg:npm/husky@^8.0.0",
+        "bom-ref": "npm/husky@^8.0.0"
+      },
+      {
+        "type": "library",
+        "name": "jest",
+        "version": "^29.7.0",
+        "purl": "pkg:npm/jest@^29.7.0",
+        "bom-ref": "npm/jest@^29.7.0"
+      },
+      {
+        "type": "library",
+        "name": "lint-staged",
+        "version": "^15.2.2",
+        "purl": "pkg:npm/lint-staged@^15.2.2",
+        "bom-ref": "npm/lint-staged@^15.2.2"
+      },
+      {
+        "type": "library",
+        "name": "rimraf",
+        "version": "^5.0.5",
+        "purl": "pkg:npm/rimraf@^5.0.5",
+        "bom-ref": "npm/rimraf@^5.0.5"
+      },
+      {
+        "type": "library",
+        "name": "ts-jest",
+        "version": "^29.1.2",
+        "purl": "pkg:npm/ts-jest@^29.1.2",
+        "bom-ref": "npm/ts-jest@^29.1.2"
+      },
+      {
+        "type": "library",
+        "name": "ts-node",
+        "version": "^10.9.2",
+        "purl": "pkg:npm/ts-node@^10.9.2",
+        "bom-ref": "npm/ts-node@^10.9.2"
+      }
+    ]
+  },
+  "elapsed_seconds": 0.99
+}
